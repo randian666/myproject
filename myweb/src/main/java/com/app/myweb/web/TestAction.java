@@ -21,7 +21,6 @@ public class TestAction {
        public String index(HttpServletRequest request,
                            Model view){
         String name=helloService.sayHelloService("liuxun");
-
         String str=helloService.helloworldService();
         view.addAttribute("name",name);
         view.addAttribute("str",str);
